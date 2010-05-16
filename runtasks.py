@@ -18,12 +18,6 @@ import cookielib
 from optparse import OptionParser
 import urllib2
 
-# TODO: remove this path manipulation
-import os, sys
-path_to_lib = os.path.join(os.path.dirname(__file__), '..')
-sys.path = sys.path + [path_to_lib]
-
-
 import simplejson as json
 
 DEFAULT_BASE_URL = 'http://localhost:8080'
