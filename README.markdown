@@ -23,7 +23,7 @@ simplejson (http://pypi.python.org/pypi/simplejson/2.1.1)  To install:
 To Install
 ==========
 
-Drop this package somewhere in your app, then add handers to app.yaml:
+Drop this package somewhere in your app, then add handlers to app.yaml:
 
     - url: /devtaskrunner/.*
       script: path/to/handler.py
